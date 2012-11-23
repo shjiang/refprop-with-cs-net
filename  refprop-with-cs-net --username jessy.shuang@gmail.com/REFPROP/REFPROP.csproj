@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91414106-465B-4492-A5BA-F9794330941E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sc.net</RootNamespace>
+    <AssemblyName>sc.net</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="Comonent.cs" />
+    <Compile Include="IFluid.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refprop.cs" />
+    <Compile Include="Refrigerant.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="fluids\1BUTENE.FLD" />
+    <None Include="fluids\ACETONE.FLD" />
+    <None Include="fluids\AIR.PPF" />
+    <None Include="fluids\AMMONIA.FLD" />
+    <None Include="fluids\ARGON.FLD" />
+    <None Include="fluids\BENZENE.FLD" />
+    <None Include="fluids\BUTANE.FLD" />
+    <None Include="fluids\C12.FLD" />
+    <None Include="fluids\C2BUTENE.FLD" />
+    <None Include="fluids\C4F10.FLD" />
+    <None Include="fluids\C5F12.FLD" />
+    <None Include="fluids\CF3I.FLD" />
+    <None Include="fluids\CO.FLD" />
+    <None Include="fluids\CO2.FLD" />
+    <None Include="fluids\COS.FLD" />
+    <None Include="fluids\CYCLOHEX.FLD" />
+    <None Include="fluids\CYCLOPRO.FLD" />
+    <None Include="fluids\D2.FLD" />
+    <None Include="fluids\D2O.FLD" />
+    <None Include="fluids\DECANE.FLD" />
+    <None Include="fluids\DME.FLD" />
+    <None Include="fluids\ETHANE.FLD" />
+    <None Include="fluids\ETHANOL.FLD" />
+    <None Include="fluids\ETHYLENE.FLD" />
+    <None Include="fluids\FLUORINE.FLD" />
+    <None Include="fluids\H2S.FLD" />
+    <None Include="fluids\HELIUM.FLD" />
+    <None Include="fluids\HEPTANE.FLD" />
+    <None Include="fluids\HEXANE.FLD" />
+    <None Include="fluids\HMX.BNC" />
+    <None Include="fluids\HYDROGEN.FLD" />
+    <None Include="fluids\IBUTENE.FLD" />
+    <None Include="fluids\IHEXANE.FLD" />
+    <None Include="fluids\IPENTANE.FLD" />
+    <None Include="fluids\ISOBUTAN.FLD" />
+    <None Include="fluids\KRYPTON.FLD" />
+    <None Include="fluids\METHANE.FLD" />
+    <None Include="fluids\METHANOL.FLD" />
+    <None Include="fluids\N2O.FLD" />
+    <None Include="fluids\NEON.FLD" />
+    <None Include="fluids\NEOPENTN.FLD" />
+    <None Include="fluids\NF3.FLD" />
+    <None Include="fluids\NITROGEN.FLD" />
+    <None Include="fluids\NONANE.FLD" />
+    <None Include="fluids\OCTANE.FLD" />
+    <None Include="fluids\OXYGEN.FLD" />
+    <None Include="fluids\PARAHYD.FLD" />
+    <None Include="fluids\PENTANE.FLD" />
+    <None Include="fluids\PROPANE.FLD" />
+    <None Include="fluids\PROPYLEN.FLD" />
+    <None Include="fluids\PROPYNE.FLD" />
+    <None Include="fluids\R11.FLD" />
+    <None Include="fluids\R113.FLD" />
+    <None Include="fluids\R114.FLD" />
+    <None Include="fluids\R115.FLD" />
+    <None Include="fluids\R116.FLD" />
+    <None Include="fluids\R12.FLD" />
+    <None Include="fluids\R123.FLD" />
+    <None Include="fluids\R124.FLD" />
+    <None Include="fluids\R125.FLD" />
+    <None Include="fluids\R13.FLD" />
+    <None Include="fluids\R134A.FLD" />
+    <None Include="fluids\R14.FLD" />
+    <None Include="fluids\R141B.FLD" />
+    <None Include="fluids\R142B.FLD" />
+    <None Include="fluids\R143A.FLD" />
+    <None Include="fluids\R152A.FLD" />
+    <None Include="fluids\R21.FLD" />
+    <None Include="fluids\R218.FLD" />
+    <None Include="fluids\R22.FLD" />
+    <None Include="fluids\R227EA.FLD" />
+    <None Include="fluids\R23.FLD" />
+    <None Include="fluids\R236EA.FLD" />
+    <None Include="fluids\R236FA.FLD" />
+    <None Include="fluids\R245CA.FLD" />
+    <None Include="fluids\R245FA.FLD" />
+    <None Include="fluids\R32.FLD" />
+    <None Include="fluids\R365MFC.FLD" />
+    <None Include="fluids\R404A.PPF" />
+    <None Include="fluids\R407C.PPF" />
+    <None Include="fluids\R41.FLD" />
+    <None Include="fluids\R410A.PPF" />
+    <None Include="fluids\R507A.PPF" />
+    <None Include="fluids\RC318.FLD" />
+    <None Include="fluids\SF6.FLD" />
+    <None Include="fluids\SO2.FLD" />
+    <None Include="fluids\T2BUTENE.FLD" />
+    <None Include="fluids\TOLUENE.FLD" />
+    <None Include="fluids\WATER.FLD" />
+    <None Include="fluids\XENON.FLD" />
+    <None Include="mixtures\AIR.MIX" />
+    <None Include="mixtures\R401A.mix" />
+    <None Include="mixtures\R401B.mix" />
+    <None Include="mixtures\R401C.mix" />
+    <None Include="mixtures\R402A.mix" />
+    <None Include="mixtures\R402B.mix" />
+    <None Include="mixtures\R403A.mix" />
+    <None Include="mixtures\R403B.mix" />
+    <None Include="mixtures\R404A.mix" />
+    <None Include="mixtures\R405A.mix" />
+    <None Include="mixtures\R406A.mix" />
+    <None Include="mixtures\R407A.mix" />
+    <None Include="mixtures\R407B.mix" />
+    <None Include="mixtures\R407C.mix" />
+    <None Include="mixtures\R407D.mix" />
+    <None Include="mixtures\R407E.mix" />
+    <None Include="mixtures\R408A.mix" />
+    <None Include="mixtures\R409A.mix" />
+    <None Include="mixtures\R409B.mix" />
+    <None Include="mixtures\R410A.mix" />
+    <None Include="mixtures\R410B.mix" />
+    <None Include="mixtures\R411A.mix" />
+    <None Include="mixtures\R411B.mix" />
+    <None Include="mixtures\R412A.mix" />
+    <None Include="mixtures\R413A.mix" />
+    <None Include="mixtures\R414B.mix" />
+    <None Include="mixtures\R500.MIX" />
+    <None Include="mixtures\R501.MIX" />
+    <None Include="mixtures\R502.MIX" />
+    <None Include="mixtures\R503.MIX" />
+    <None Include="mixtures\R504.MIX" />
+    <None Include="mixtures\R507A.mix" />
+    <None Include="mixtures\R508A.mix" />
+    <None Include="mixtures\R508B.mix" />
+    <None Include="mixtures\R509A.mix" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="REFPROP.DLL" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

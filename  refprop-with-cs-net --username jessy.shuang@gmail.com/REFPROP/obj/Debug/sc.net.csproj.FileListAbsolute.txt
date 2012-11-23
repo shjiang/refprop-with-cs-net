@@ -1,0 +1,23 @@
+G:\download from refprop website\cs.net\sc.net\sc.net\obj\Debug\ResolveAssemblyReference.cache
+G:\download from refprop website\cs.net\sc.net\sc.net\obj\Debug\sc.net.Properties.Resources.resources
+G:\download from refprop website\cs.net\sc.net\sc.net\obj\Debug\sc.net.csproj.GenerateResource.Cache
+G:\download from refprop website\cs.net\sc.net\sc.net\bin\Debug\sc.net.exe
+G:\download from refprop website\cs.net\sc.net\sc.net\bin\Debug\sc.net.pdb
+G:\download from refprop website\cs.net\sc.net\sc.net\obj\Debug\sc.net.exe
+G:\download from refprop website\cs.net\sc.net\sc.net\obj\Debug\sc.net.pdb
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\obj\Debug\sc.net.exe
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\obj\Debug\sc.net.pdb
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\bin\Debug\sc.net.exe
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\bin\Debug\sc.net.pdb
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\obj\Debug\ResolveAssemblyReference.cache
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\obj\Debug\sc.net.Properties.Resources.resources
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\快盘\REFPROP\Refprop About\cs.net\sc.net\sc.net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\refprop.sc.net\sc.net\obj\Debug\sc.net.exe
+D:\refprop.sc.net\sc.net\obj\Debug\sc.net.pdb
+D:\refprop.sc.net\sc.net\bin\Debug\sc.net.exe
+D:\refprop.sc.net\sc.net\bin\Debug\sc.net.pdb
+D:\refprop.sc.net\sc.net\obj\Debug\ResolveAssemblyReference.cache
+D:\refprop.sc.net\sc.net\obj\Debug\sc.net.Properties.Resources.resources
+D:\refprop.sc.net\sc.net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\refprop.sc.net\sc.net\obj\Debug\GenerateResource-ResGen.write.1.tlog
